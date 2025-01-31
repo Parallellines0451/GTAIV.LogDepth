@@ -205,7 +205,7 @@
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS11.asm</File>
-				<Variables value="15" >
+				<Variables value="14" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -275,18 +275,13 @@
 						<Type>float4</Type>
 						<Name>dofProj</Name>
 						<Index value="73" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS12.asm</File>
-				<Variables value="21" >
+				<Variables value="20" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -386,18 +381,13 @@
 						<Type>float4x4</Type>
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS13.asm</File>
-				<Variables value="15" >
+				<Variables value="14" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -467,18 +457,13 @@
 						<Type>float4</Type>
 						<Name>dofProj</Name>
 						<Index value="73" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS14.asm</File>
-				<Variables value="21" >
+				<Variables value="20" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -578,18 +563,13 @@
 						<Type>float4x4</Type>
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS15.asm</File>
-				<Variables value="15" >
+				<Variables value="14" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -659,18 +639,13 @@
 						<Type>float4</Type>
 						<Name>dofProj</Name>
 						<Index value="73" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS16.asm</File>
-				<Variables value="21" >
+				<Variables value="20" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -771,17 +746,12 @@
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS17.asm</File>
-				<Variables value="15" >
+				<Variables value="14" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -852,17 +822,12 @@
 						<Name>dofProj</Name>
 						<Index value="73" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS18.asm</File>
-				<Variables value="21" >
+				<Variables value="20" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -963,17 +928,12 @@
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS19.asm</File>
-				<Variables value="11" >
+				<Variables value="10" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>GBufferStencilTextureSampler</Name>
@@ -1024,17 +984,12 @@
 						<Name>globalFogParams</Name>
 						<Index value="41" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS20.asm</File>
-				<Variables value="8" >
+				<Variables value="7" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>GBufferTextureSampler3</Name>
@@ -1069,11 +1024,6 @@
 						<Type>float4</Type>
 						<Name>globalFogParams</Name>
 						<Index value="41" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
@@ -1117,7 +1067,7 @@
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS23.asm</File>
-				<Variables value="17" >
+				<Variables value="16" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -1197,18 +1147,13 @@
 						<Type>float4</Type>
 						<Name>dofProj</Name>
 						<Index value="73" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS24.asm</File>
-				<Variables value="23" >
+				<Variables value="22" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -1319,17 +1264,12 @@
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS25.asm</File>
-				<Variables value="17" >
+				<Variables value="16" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -1410,17 +1350,12 @@
 						<Name>dofProj</Name>
 						<Index value="73" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS26.asm</File>
-				<Variables value="23" >
+				<Variables value="22" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -1530,11 +1465,6 @@
 						<Type>float4x4</Type>
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
-					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
 					</Item>
 				</Variables>
 			</Item>
@@ -1592,7 +1522,7 @@
 			<Item>
 				<DataType>asm</DataType>
 				<File>rage_postfx\rage_postfxPS28.asm</File>
-				<Variables value="19" >
+				<Variables value="18" >
 					<Item>
 						<Type>sampler</Type>
 						<Name>AdapLumSampler</Name>
@@ -1683,16 +1613,11 @@
 						<Name>motionBlurMatrix</Name>
 						<Index value="72" />
 					</Item>
-					<Item>
-						<Type>float4</Type>
-						<Name>NearFarPlane</Name>
-						<Index value="128" />
-					</Item>
 				</Variables>
 			</Item>
 		</PixelShaders>
 	</Shaders>
-	<GlobalVariables value="48" >
+	<GlobalVariables value="47" >
 		<Item>
 			<Type>float4</Type>
 			<ArrayCount value="64" />
@@ -2163,14 +2088,6 @@
 			0
 			0
 		</Values>
-		</Item>
-		<Item>
-			<Type>float4</Type>
-			<ArrayCount value="0" />
-			<Name1>NearFarPlane</Name1>
-			<Name2>NearFarPlane</Name2>
-			<Annotation />
-			<Values />
 		</Item>
 	</GlobalVariables>
 	<LocalVariables value="32" >

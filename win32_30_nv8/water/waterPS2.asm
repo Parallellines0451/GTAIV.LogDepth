@@ -247,10 +247,10 @@
     texld r8, r7.zyzw, s2
     
     // LogDepth Read
-    rcp r20.x, c128.x
-    mul r20.x, r20.x, c128.y
+    rcp r20.x, c75.x
+    mul r20.x, r20.x, c75.y
     pow r20.x, r20.x, r8.x
-    mul r0.x, r20.x, c128.x
+    mul r0.x, r20.x, c75.x
     
     add r0.x, r0.x, -v0.z
     pow r0.w, v0_abs.z, c4.z
@@ -323,9 +323,9 @@
     
     // LogDepth Write
     if_ne v9.y, c127.x
-      rcp r20.x, c128.x
+      rcp r20.x, c75.x
       mul r20.y, r20.x, v9.w
-      mul r20.x, r20.x, c128.y
+      mul r20.x, r20.x, c75.y
       log r20.x, r20.x
       log r20.y, r20.y
       rcp r20.x, r20.x

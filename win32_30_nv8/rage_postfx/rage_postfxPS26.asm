@@ -78,10 +78,10 @@
     texld r0, v0, s1
     
     // LogDepth Read
-    rcp r20.x, c128.x
-    mul r20.x, r20.x, c128.y
+    rcp r20.x, c77.x
+    mul r20.x, r20.x, c77.y
     pow r20.x, r20.x, r0.x
-    mul r0.y, r20.x, c128.x
+    mul r0.y, r20.x, c77.x
     
     texld r1, v0, s2
     texld r2, v0, s4
